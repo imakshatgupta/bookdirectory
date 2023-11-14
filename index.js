@@ -34,7 +34,7 @@ let books = [
 
 
 
-//GET all 
+//GET all books
 
 app.get('/books', (req, res) => {
     res.json(books);
