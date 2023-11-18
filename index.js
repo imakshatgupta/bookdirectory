@@ -6,7 +6,7 @@ const exp = require('constants');
 const port = 3000;
 
 
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 app.use(express.static('public'))
 
 
