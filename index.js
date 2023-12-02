@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(express.static('public'))
 
-let books = [
+let books = [ 
     {
         "id": 1,
         "title": "Harry Potter and the Philosopher's Stone",
