@@ -9,8 +9,6 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(express.static('public'))
 
-
-
 let books = [
     {
         "id": 1,
